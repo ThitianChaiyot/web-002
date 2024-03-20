@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+body{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    font-family: 'Poppins',sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+
+nav{
+    display: flex;
+    width: 85%;
+    color: aliceblue;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+
+/*----------------rps menu---------------*/
+@media screen and (max-width:480px){
+nav{
+    flex-direction: column;
+    margin: auto;
+}
+nav ul  {
+    flex-direction: column;
+    text-align: center;
+
+
+}
+    
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+/*------------------------------------section-hero----------------------------*/
+.hero{
+    background-image: url("https://static.thairath.co.th/media/dFQROr7oWzulq5Fa4u0YhLKiDxsd9SJzhOgnJBrNJF7AnWteyEqlbMBkwK3ims5mj33.webp");
+    width: 2000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.text-hero{
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.text-hero{
+    color: aliceblue;
+    text-align: center;
+}
+
+.social-media{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.social-media img{
+    padding: 20px;
+    margin: 30px 10px;
+}
+
+.social-media img{
+    width: 15%;
+    
+}
+
+/*------------------------------------social-media----------------------------*/
+
+@media screen and (max-width:1050px){
+    .social-box{
+        display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-columns: repeat(3,1fr);
+        
+        max-width: 100%;
+        margin: auto;
+    }
+    .social-media img{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .social-box{
+        display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-columns: repeat(2,1fr);
+        
+        max-width: 100%;
+        margin: auto;
+    }
+    .social-media img{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:480px){
+    .social-box{
+        display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-columns: repeat(1,1fr);
+        
+        max-width: 100%;
+        margin: auto;
+    }
+    .social-media img{
+        margin: auto;
+        padding:  20px;
+    }
+}
+
+
+
+
+/*------------------------------------mypet-content----------------------------*/
+@media screen and (max-width:768px){
+    .mypet-content{
+        display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(3,1fr);
+    
+    max-width: 95%;
+    margin: auto;
+    }
+}
+
+@media screen and (max-width:480px){
+    .mypet-content{
+        display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(2,1fr);
+    
+    max-width: 95%;
+    margin: auto;
+    }
+}
+
+.box{
+    /*background-color: brown;*/
+    margin: 30px 10px;
+    box-shadow: 0px 0px 3px 0px rgb(1, 4, 7);
+    border-radius: 10px;
+
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px 10px  0px 0px;
+}
+
+.text-param{
+    padding: 10px;
+}
+
+h3{
+    padding: 10px;
+}
+
+.button{
+    padding: 10px;
+}
+
+
+/*-----------------------------footer-------------------*/
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}

@@ -3,44 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>List</title>
     <style>
-        nav{
-            background-color: brown;
-            color: #fafafa;
-            padding: 4px 10px;
+        .text-capital{
+            text-transform: uppercase;
         }
-        
-        ul{
-        display: flex; /*ใช้ขยับ*/
-        justify-content: space-between;
-        text-align: center;
-        list-style-type: none;
-        width: 500px;
-        }
-
-
-
-        
-
-
-
-
-
-    
+        div{
+         color: azure;
+         background-color: #718cc5;
+         padding: 8px 24px;
+         border-radius: 30px;
+         display: inline-block;
+}
     </style>
 </head>
 <body>
-    <nav>
-    <ul>
-        <li>เกี่ยวกับมหาวิทยาลัย</li>
-        <li>ข่าว</li>
-        <li>หน่วยงาน</li>
-        <li>ติดต่อเรา</li>
-        <li>Login</li>
-    </ul>
-   </nav>
-   <div><a href="6540_01_home.html">back to home</a></div>
-</body>
-</html>
+        <h1 class="text-capital">Tutorial List</h1>
+        <hr>
+        <h2 class="text-capital">unorder lis : Style disc/circle/square/none</h2>
+        <ul style="list-style-type: square;">
+            <li>coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+        <hr>
 
+        <h2 class="text-uppercase"></h2>
+        <ul>
+            <li>
+                coffee
+            <ul>
+                <li>Capucino</li>
+                <li>Latte</li>
+            </ul>
+        
+        </li>
+        
+        <li>
+            Tea
+            <ul>
+                <li>Green Tea</li>
+                <li>Mutcha</li>
+            </ul>
+        </li>
+        <li>
+            Milk
+            <ul>
+                <li>Milk Shack</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!--- Order List --->
+        <h2 class="text-capital">order list</h2>
+        <ul>
+            <li>coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul>
+
+        <hr>
+        <h2 class="text-capital">order list : type-> 1/A/a/I/i</h2>
+        <ol type="I">
+            <li>coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+       </ol>
+       <hr>
+
+       <h2 class="text-capital">order list : Nested List</h2>
+        <ol type="1" start="20">
+            <li>
+                coffee
+                <ul>
+                    <li>Capucino</li>
+                    <li>Latte</li>
+                </ul>
+            </li>
+       </ol>
+       <div><a href="6540_01_home.html">Back to home</a></div>
+</body>

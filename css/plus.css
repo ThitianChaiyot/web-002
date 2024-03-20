@@ -1,0 +1,169 @@
+
+
+body{
+    background: #282120;
+        margin: auto;
+
+}
+
+.nav{
+background-color: #8856CB;
+color: aliceblue;
+}
+
+.box1{
+    background-color: #282120;
+}
+
+.boxmini2{
+background: #7D3030;
+margin: auto;
+border-radius: 3%;
+padding: 5px;
+width: 30%;
+}
+
+footer{
+background-color: #8856CB;
+text-align: center;
+color: aliceblue;
+padding: 10px;
+}
+
+.image{
+    align-items: center;
+    width: 90px;
+    margin: auto;
+    border-radius: 80%;
+    
+}
+
+
+.header{
+    background-color: #282120;
+}
+
+.css1{
+    width: 1100px;
+    margin: auto;
+}
+
+.css9{
+    
+    background-color: #8856CB;
+    color: aliceblue;
+}
+
+
+.grade1{
+    background-color: #9770D3;
+   text-align: center;
+   margin: auto;
+   color: aliceblue;
+   border-radius: 50px;
+   padding: 10px;
+}
+
+.grade2{
+    background-color: #9770D3;
+   text-align: center;
+   margin: auto;
+   color: aliceblue;
+   border-radius: 50px;
+   padding: 10px;
+   
+}
+
+.grade3{
+    background-color: #9770D3;
+   text-align: center;
+   margin: auto;
+   color: aliceblue;
+   border-radius: 50px;
+   padding: 10px;
+}
+
+.grade4{
+    background-color: #9770D3;
+    text-align: center;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+.pass{
+    color: #fafafa;
+}
+
+.pass2{
+    background-color: #fafafa;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: 100;
+}
+
+.name{
+    color: #fafafa;
+}
+
+.name2{
+    background-color: #fafafa;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.class{
+    color: #fafafa;
+}
+
+.class2{
+    background-color: #fafafa;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.dish{
+    color: #fafafa;
+}
+
+.dish2{
+    background-color: #fafafa;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.git{
+    color: #fafafa;
+}
+
+.git2{
+    background-color: #fafafa;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.bgcen{
+    background: #fafafa;
+}
+
+.classbg{
+    background: #7D3030;
+    margin: auto;
+border-radius: 3%;
+padding: 5px;
+width: 80%;
+}

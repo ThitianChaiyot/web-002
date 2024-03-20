@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200;1,600;1,900&display=swap');
+
+body{
+    background-color: #9C81F3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Start Head*/
+header{
+    background-color: #2F0E9A;
+}
+
+nav{
+    
+    display: flex; /*ใช้ขยับ*/
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    align-items: center;
+    width: 300px;
+    display: flex; /*ใช้ขยับ*/
+    margin-left: 15px;
+
+}
+
+.h1-title{
+    margin-left: 15px;
+    color: aliceblue;
+    text-transform: uppercase; /*คำใหญ่ทั้งหมด*/
+
+}
+
+.menu{
+    
+    display: flex;
+    list-style: none;
+    /*width: 500px;*/
+}
+
+li{
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*End Head*/
+
+/*End main-content*/
+
+.main-content{
+    /*margin:auto เหมือนกัน*/ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+}
+
+.box{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 30px 0px;
+
+}
+
+.image{
+    width: 100%;
+}
+
+.button{
+    color: aliceblue;
+    background-color: #C0B5B5;
+    padding: 8px 24px;
+    border-radius: 50px;
+    display:inline-block
+}
+
+.text-param{
+    font-weight: 200;
+}
+
+/*End main-content*/
+
+/*Start footer*/
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+/*End Footer*/
